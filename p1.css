@@ -23,8 +23,8 @@ html, body {
 .site-title {
     font-size: 50px;
     font-weight: bold;
-    margin: 0; 
     font-family: 'Times New Roman', Times, serif;
+    margin: 0; 
 }
 
 .nav-menu ul {
@@ -136,49 +136,100 @@ max-height: 100px;
 }
 .pay {
     text-align: center;
-    margin-top: 1000px;
+    margin-top: 200px;
+    font-size: 25px;
+    margin-right: 400px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+
 }
-@font-face {
-    font-family: 'KerakNeraka';
-    src: url('./KerakNeraka-8Oaoz.otf');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  :root {
-    --color-bg: rgba(103, 157, 157, 0.587);
-    --color-fg: #fff;
-  
-    --font-body: sans-serif;
-    --font-header: 'KerakNeraka', sans-serif;
-  
-    --step--2: clamp(0.6331rem, 0.6141rem + 0.0949vw, 0.6877rem);
-    --step--1: clamp(0.844rem, 0.7993rem + 0.2234vw, 0.9724rem);
-    --step-0: clamp(1.125rem, 1.038rem + 0.4348vw, 1.375rem);
-    --step-1: clamp(1.4996rem, 1.345rem + 0.7733vw, 1.9443rem);
-    --step-2: clamp(1.999rem, 1.7381rem + 1.3046vw, 2.7492rem);
-    --step-3: clamp(2.6647rem, 2.2394rem + 2.1264vw, 3.8873rem);
-    --step-4: clamp(3.552rem, 2.8756rem + 3.382vw, 5.4967rem);
-    --step-5: clamp(4.7348rem, 3.6783rem + 5.2826vw, 7.7723rem);
-  }
-  
-  .body {
-          margin: 0;
-          height: 100vh; /* Full höjd på viewport */
-          background: linear-gradient(120deg, #0B3D91, #1D1E24, #49B3C2, #2E8A57, #3B0050);
-          background-size: 400% 400%;
-          animation: auroraBackground 10s infinite alternate;
-          overflow: hidden; /* Tar bort scroll om animationen expanderar */
-      }
-      
-      @keyframes auroraBackground {
-          0% {
-              background-position: 0% 0%;
-          }
-          50% {
-              background-position: 100% 50%;
-          }
-          100% {
-              background-position: 0% 100%;
-          }
-      }
+.mejl {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 400px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pn {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 400px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.för {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 400px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.efter {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 400px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.adress {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 400px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ort {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 400px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tn {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 400px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.betala {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-right: 400px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.kort {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 400px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.swish {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 400px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.faktura {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 400px;
+    font-size: 20px;
+    margin-bottom: 200px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
