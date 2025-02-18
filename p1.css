@@ -236,9 +236,42 @@ max-height: 100px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
-.h2 {
-    text-align:  center;
-}
-.p {
-    text-align: center;
-}
+:root {
+    --color-dark: black;
+    --color-light: White;
+    --color-primary: hsl(16, 76%, 32%);;
+    --color-secondary: #FFA500;
+    
+    --font-heading: serif;
+    --font-body: sans-serif;
+    
+    --font-body-size: 1.2rem;
+  }
+  .region {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .color-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    list-style: none;
+    
+    li {
+      aspect-ratio: 1;
+      width: 10rem;
+      display: grid;
+      place-items:center;
+      border: 1px solid var(--color-dark);
+    }
+  }
+  
+  .primary {
+    background-color: var(--color-primary);
+  }
+  
+  .light-primary {
+    color: var(--color-light);
+    background-color: var(--color-primary);
+  }
