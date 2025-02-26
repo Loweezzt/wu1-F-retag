@@ -236,6 +236,18 @@ max-height: 100px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
+.left-container {
+    text-align: left;
+    margin-left: 265px;
+}
+
+.emplo {
+    font-size: 1.5rem;
+    margin-top: 20px;   
+    color: #ffffff;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
 :root {
     --color-dark: black;
     --color-light: White;
@@ -275,3 +287,18 @@ max-height: 100px;
     color: var(--color-light);
     background-color: var(--color-primary);
   }
+  .bild-om {
+    max-height: 700px;
+    max-width: 650px;
+    margin: 0px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.pic-container {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+    text-align: center;
+}
