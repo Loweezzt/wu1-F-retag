@@ -44,20 +44,54 @@
     </nav>
 </div>
 
-<div   id="order">
-    <p class="pay">Dina uppgifter</p>
-    <p class="mejl">Mejladress</p>
-    <p class="pn">Personnummer</p>
-    <p class="för">Förnamn</p>
-    <p class="efter">Efternamn</p>
-    <p class="adress">Adress</p>
-    <p class="ort">Ort</p>
-    <p class="tn">Telefonnummer</p>
-    <p class="betala">Betalningssätt</p>
-    <p class="kort">Kort</p>
-    <p class="swish">Swish</p>
-    <p class="faktura">Faktura</p>
+
+<form name="contact" method="POST" data-netlify="true">
+    <p>
+        <label>Namn: <input type="text" name="name" /></label>
+    </p>
+    <p>
+        <label>Mejl: <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label>Adress: <input type="adress" name="adress" /></label>
+        </p>
+        <p>
+            <label>postnummer: <input type="pn" name="pn" /></label>
+        </p>
+        <p>
+            <label>Telefonnummer: <input type="tn" name="tn" /></label>
+        </p>
+        <p>
+            <label>Meddelande: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+            <button type="submit">Skicka!</button>
+        </p>
+    </form>
+    <div   id="order">
 </div> 
-</body>    
+<form name="contact" method="POST" data-netlify="true">
+    <p>
+      <label>Your Name: <input type="text" name="name" /></label>
+    </p>
+    <p>
+      <label>Your Email: <input type="email" name="email" /></label>
+    </p>
+    <p>
+      <label>Your Role: <select name="role[]" multiple>
+        <option value="leader">Leader</option>
+        <option value="follower">Follower</option>
+      </select></label>
+    </p>
+    <p>
+      <label>Message: <textarea name="message"></textarea></label>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+</form>
+  
+</body>   
+
 </html>
 
