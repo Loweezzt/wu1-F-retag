@@ -9,6 +9,11 @@ html, body {
 
 }
 
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
 .site-header {
     background-color: hsl(16, 76%, 32%);
     color: #FFFFFF; 
@@ -118,6 +123,7 @@ max-height: 100px;
     margin-top: 25px;  
     margin-bottom: 50px;
     font-weight: bold;
+    list-style: none;
 }
 .nav-beställ a {
     text-decoration: none;
@@ -313,4 +319,61 @@ max-height: 100px;
     margin-top: 20px;   
     color: #333;
     font-style: italic;
+}
+.bilder {
+    max-width: 100 px;
+}
+
+.centered-layout {
+    --layout-width: 50ch;
+  max-width: min(var(--layout-width), 100vw);
+  margin-inline: auto;
+  padding-inline: 1rem;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  gap: 2rem;
+}
+  .secondary {
+    background-color: var(--color-secondary);
+  }
+    .lightprimary {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+  }
+    .lightsecondary {
+    background-color: var(--color-secondary);
+    color: var(--color-light);
+    
+  }
+  .gp-low-container {
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;  
+    margin-top: 30px;
+    font-weight: bold;
+    list-style: none;
+}
+.gp-nav-beställ a {
+    text-decoration: none;
+    list-style: none;
+    color:#262626;
+    background-color:#FFA500;
+    background-size: 100px;
+    border-radius: 50px;
+    padding: 10px 30px;
+
+}
+.gp-nav-beställ a:hover {
+    color: #f0f0f0;
+    transition: color 0.3s;
+}
+
+.information {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 750px;
+    margin-inline: auto;
 }
